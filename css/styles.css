@@ -1,0 +1,67 @@
+.MenuWarp {
+	background-color: white;
+	font-family: 'Oswald',sans-serif;
+	font-size: 1rem;
+	min-height: 2.75rem;
+	display: flex;
+	flex-wrap:wrap;
+	align-item: center;
+	padding: 0 8rem;
+}
+
+.ListItem,.Logo {
+	color: #4bd4d5;
+	text-decoration: none;
+}
+
+.ListItem {
+	margin-left: 1rem;
+	margin-top: 0.5rem; 
+}
+
+.Logo {
+	color:#093a58;
+	margin-right: auto;
+	font-size: 2.5rem;
+}
+.Judul,.Footer {
+	background-color: #ff0000;
+	color: #ebebeb;
+	font-size: 2rem;
+	height: 150px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+article {
+	background-color: white;
+}
+
+.FlexWrapper {
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	height: 345px;
+	overflow:hidden;
+	padding: 0 8rem;
+}
+
+.FlexInner {
+	color: #111111;
+	flex-flow:column;
+	flex-basis: 28%;
+	height: 200px;
+	margin-top: -20px;
+}
+
+.FlexInner p {
+	text-align: left;
+}
+
+.Footer {
+	height: 50px;
+	font-size: 1rem;
+	background-color: #d9e4ea;
+	color: #000000;
+}
